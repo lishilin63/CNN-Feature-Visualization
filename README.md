@@ -17,9 +17,11 @@ Term: Fall 2018
 
 We choose this project because neural networks as black box function approximators, most people are not sure how each layers are doing their jobs. 
 
-Therefore, We want to explore what and how exactly different layers are extracting features. In this way, we will have a better understanding of different layers in CNN.
+Therefore, We want to explore what and how exactly different layers are extracting features. In this way, we will have a better understanding of different layers in CNN. 
 
-1. **MNIST dataset**
+The project has 3 parts. The 1st part we are using mnist dataset and build a straightforward 3-layer CNN. We then visualize the filtered channel from each layer. The 2nd part we are looking at practical images. The process is trained a CNN model with respected to dogs and cats classification. The goal of the visualization is exploring how the CNN is learning a cat. The 3rd part is using the popular VGG16 model and visualizing the filter in each layer. Therefore, we not only could explore the output from the CNN convolutional layer, but also get some knowlege of the CNN filters.
+
+1. **MNIST Feature**
 
 We created a basic 3-layers model for MNIST dataset, and visualized each layers' features.
 
@@ -36,19 +38,15 @@ Third Layer|
 ![mnist_4](figs/layer3.png)|
 
 
-2. **ImageNet dataset**
-
-Since MNIST is greay scale images, but we want to explore more about RGB images. Therefore, we used VGG16 as our pre-trained model
-
-![mnist_1](figs/)
-
-3. **Cats vs. Dogs dataset**
+2. **Learning a Cat**
 
 First Layer             |  Second Layer
 :-------------------------:|:-------------------------:
 ![mnist_1](figs/cat_layer1.png)  |  ![mnist_1](figs/cat_layer2.png)
 Third Layer             |  Forth Layer
 ![mnist_1](figs/cat_layer3.png)  | ![mnist_1](figs/cat_layer4.png)
+
+3. ****
 
 4. **Conclusion**:
 	+ Shadow layers extract the texture and details characteristics.

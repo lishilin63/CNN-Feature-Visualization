@@ -2,6 +2,8 @@
 
 ![img](figs/cnn_filters.png)
 
+#### PPT: [https://prezi.com/view/aLMlzVDt2iJCiDe1n1hn/](https://prezi.com/view/aLMlzVDt2iJCiDe1n1hn/)
+
 Term: Fall 2018
 
 + Team #4

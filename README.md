@@ -13,7 +13,7 @@ Term: Fall 2018
 	+ Yu, Chenghao cy2475@columbia.edu
 	+ Yue, Yang yy2826@columbia.eduember 2
 	
-##Project summary:
+## Project summary:
 
 We choose this project because neural networks as black box function approximators, most people are not sure how each layers are doing their jobs. 
 

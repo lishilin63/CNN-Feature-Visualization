@@ -25,7 +25,9 @@ The project has 3 parts. The 1st part we are using mnist dataset and build a str
 
 1. **MNIST Feature**
 
-We created a basic 3-layers model for MNIST dataset, and visualized each layers' features.
+We created a basic 3-layers CNN for MNIST dataset, and visualized each layers' features. We can look at how that image activates the neurons of the first convolutional layer. We notice that each filter has learned differently to activate optimally for different features of the image. Also, as layer increases, the images which activate feature optimally will be less clear than previous layers'.
+In [52]:
+
 
 First Layer |
 :-------------------------:|
@@ -39,8 +41,12 @@ Third Layer|
 :-------------------------:|
 ![mnist_4](figs/layer3.png)|
 
+3. **Learning a Cat**
 
-2. **Learning a Cat**
+
+
+
+4. **Explore Filters from VGG16**
 
 First Layer             |  Second Layer
 :-------------------------:|:-------------------------:
@@ -48,7 +54,7 @@ First Layer             |  Second Layer
 Third Layer             |  Forth Layer
 ![mnist_1](figs/cat_layer3.png)  | ![mnist_1](figs/cat_layer4.png)
 
-3. ****
+
 
 4. **Conclusion**:
 	+ Shadow layers extract the texture and details characteristics.

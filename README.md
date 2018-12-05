@@ -25,7 +25,7 @@ We created a basic 3-layers model for MNIST dataset, and visualized each layers'
 
 First Layer |
 :-------------------------:|
-![mnist_2](figs/layer1.png = 100x50)|
+![mnist_2](figs/layer1.png)|
 
 Second Layer|
 :-------------------------:|

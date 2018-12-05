@@ -26,7 +26,6 @@ The project has 3 parts. The 1st part we are using mnist dataset and build a str
 1. **MNIST Feature**
 
 We created a basic 3-layers CNN for MNIST dataset, and visualized each layers' features. We can look at how that image activates the neurons of the first convolutional layer. We notice that each filter has learned differently to activate optimally for different features of the image. Also, as layer increases, the images which activate feature optimally will be less clear than previous layers'.
-In [52]:
 
 
 First Layer |

@@ -41,17 +41,22 @@ Third Layer|
 ![mnist_4](figs/layer3.png)|
 
 3. **Learning a Cat**
-Conv2_5 |
-:-------------------------:|
-![mnist_2](figs/conv2d_5.png)|
 
-Second Layer|
+conv2d_5|
 :-------------------------:|
-![mnist_3](figs/layer2.png)|
+![conv2_5](figs/conv2d_5.png)|
 
-Third Layer|
+conv2d_6|
 :-------------------------:|
-![mnist_4](figs/layer3.png)|
+![conv2d_6](figs/conv2d_6.png)|
+
+conv2d_7|
+:-------------------------:|
+![conv2d_7](figs/conv2d_7.png)|
+
+conv2d_8|
+:-------------------------:|
+![conv2d_8](figs/conv2d_8.png)|
 
 
 

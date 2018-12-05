@@ -42,17 +42,23 @@ Third Layer|
 
 3. **Learning a Cat**
 
+* The first layer acts as a collection of various edge detectors. At that stage, the activations are still retaining almost all of the information present in the initial picture.
+* As we go higher-up, the activations become increasingly abstract and less visually interpretable. They start encoding higher-level concepts such as "cat ear" or "cat eye". Higher-up presentations carry increasingly less information about the visual contents of the image, and increasingly more information related to the class of the image.
+* The sparsity of the activations is increasing with the depth of the layer: in the first layer, all filters are activated by the input image, but in the following layers more and more filters are blank. This means that the pattern encoded by the filter isn't found in the input image.
+
+We evidence a very important universal characteristic of the representations learned by deep neural networks: the features extracted by a layer get increasingly abstract with the depth of the layer. The activations of layers higher-up carry less and less information about the specific input being seen, and more and more information about the target (in our case, the class of the image: cat or dog). A deep neural network effectively acts as an information distillation pipeline, with raw data going in (in our case, RBG pictures), and getting repeatedly transformed so that irrelevant information gets filtered out (e.g. the specific visual appearance of the image) while useful information get magnified and refined (e.g. the class of the image).
+
 conv2d_5|
 :-------------------------:|
 ![conv2_5](figs/conv2d_5.png)|
 
 conv2d_6|
 :-------------------------:|
-![conv2d_6](figs/conv2d_6.png)|
+![conv2d_6](figs/con2d_6.png)|
 
 conv2d_7|
 :-------------------------:|
-![conv2d_7](figs/conv2d_7.png)|
+![conv2d_7](figs/con2d_7.png)|
 
 conv2d_8|
 :-------------------------:|
@@ -61,6 +67,12 @@ conv2d_8|
 
 
 4. **Explore Filters from VGG16**
+
+These filter visualizations tell us a lot about how convnet layers see the world: each layer in a convnet simply learns a collection of filters such that their inputs can be expressed as a combination of the filters. This is similar to how the Fourier transform decomposes signals onto a bank of cosine functions. The filters in these convnet filter banks get increasingly complex and refined as we go higher-up in the model:
+
+* The filters from the first layer in the model (block1_conv1) encode simple directional edges and colors (or colored edges in some cases).
+* The filters from block2_conv1 encode simple textures made from combinations of edges and colors.
+* The filters in higher-up layers start resembling textures found in natural images: feathers, eyes, leaves, etc.
 
 First Layer             |  Second Layer
 :-------------------------:|:-------------------------:

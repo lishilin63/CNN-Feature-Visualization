@@ -23,7 +23,7 @@ Therefore, We want to explore what and how exactly different layers are extracti
 
 The project has 3 parts. The 1st part we are using mnist dataset and build a straightforward 3-layer CNN. We then visualize the filtered channel from each layer. The 2nd part we are looking at practical images. The process is trained a CNN model with respected to dogs and cats classification. The goal of the visualization is exploring how the CNN is learning a cat. The 3rd part is using the popular VGG16 model and visualizing the filter in each layer. Therefore, we not only could explore the output from the CNN convolutional layer, but also get some knowlege of the CNN filters.
 
-1. **MNIST Feature**
+**MNIST Feature**
 
 We created a basic 3-layers CNN for MNIST dataset, and visualized each layers' features. We can look at how that image activates the neurons of the first convolutional layer. We notice that each filter has learned differently to activate optimally for different features of the image. Also, as layer increases, the images which activate feature optimally will be less clear than previous layers'.
 
@@ -40,7 +40,7 @@ Third Layer|
 :-------------------------:|
 ![mnist_4](figs/layer3.png)|
 
-3. **Learning a Cat**
+**Learning a Cat**
 
 * The first layer acts as a collection of various edge detectors. At that stage, the activations are still retaining almost all of the information present in the initial picture.
 * As we go higher-up, the activations become increasingly abstract and less visually interpretable. They start encoding higher-level concepts such as "cat ear" or "cat eye". Higher-up presentations carry increasingly less information about the visual contents of the image, and increasingly more information related to the class of the image.
@@ -66,7 +66,7 @@ conv2d_8|
 
 
 
-4. **Explore Filters from VGG16**
+**Explore Filters from VGG16**
 
 These filter visualizations tell us a lot about how convnet layers see the world: each layer in a convnet simply learns a collection of filters such that their inputs can be expressed as a combination of the filters. This is similar to how the Fourier transform decomposes signals onto a bank of cosine functions. The filters in these convnet filter banks get increasingly complex and refined as we go higher-up in the model:
 
@@ -82,12 +82,12 @@ Third Layer             |  Forth Layer
 
 
 
-4. **Conclusion**:
-	+ Shadow layers extract the texture and details characteristics.
-	+ Deeper layers extract the outline, shape and strongest features.
-	+ Shadow layers includes more features and also has the ability to extract the key features.
-	+ Comparably, the deeper the layer, the more representative of the features extracted.
-	+ Resolution of images decrease as the layers go deeper.
+**Conclusion**:
++ Shadow layers extract the texture and details characteristics.
++ Deeper layers extract the outline, shape and strongest features.
++ Shadow layers includes more features and also has the ability to extract the key features.
++ Comparably, the deeper the layer, the more representative of the features extracted.
++ Resolution of images decrease as the layers go deeper.
 
 
 ## Contribution statement:  

@@ -67,7 +67,7 @@ Third Layer             |  Forth Layer
 
 **Li, Shilin**: Programmed the Mnist CNN model and visulize the mnist dataset on the layer base. Coded on the cat and dog classification, and write the visualization function to explore the feature extracted from each channel. Summarize the feature differences for the CNN learning process.
 
-**Xu, Zhengyang**: Trained the classification model in cats & dogs dataset. Programmed on visualizing each filter from each layer of the VGG 16 model. Coded on the heatmap in explore the contrast area when CNN is doing classification. 
+**Xu, Zhengyang**(presenter): Trained the classification model in cats & dogs dataset. Programmed on visualizing each filter from each layer of the VGG 16 model. Coded on the heatmap in explore the contrast area when CNN is doing classification. Created the PPT and organize the presentation structure.
 
 Yang, Mingyu: Summerized the output feature differences and assist on the presentation.
 

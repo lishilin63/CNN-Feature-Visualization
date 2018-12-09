@@ -1,4 +1,4 @@
-# Visualizing the Black Box (CNN)
+# Advanced Machine Learning: Visualizing the Black Box (CNN)
 
 ![img](figs/cnn_filters.png)
 
@@ -6,7 +6,6 @@
 
 Term: Fall 2018
 
-+ Team #4
 + Projec title: Convolutional Neural Network Feature Visualization
 + Team members
 	+ Dong, Jiayi jd3416@columbia.edu

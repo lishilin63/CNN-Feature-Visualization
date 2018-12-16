@@ -21,7 +21,7 @@ The project has 3 parts. The 1st part we build a straightforward 3-layer CNN and
 
 **MNIST Feature**
 
-We created a basic 3-layers CNN for MNIST dataset, and visualized each layers' features. We can look at how that image activates the neurons of the first convolutional layer. We notice that each filter has learned differently to activate optimally for different features of the image. Also, as layer increases, the images which activate feature optimally will be less clear than previous layers'.
+We created a basic 3-layers CNN for MNIST dataset, and visualized the output before the last dense layer which activate the unit in the dense layer. We can observe different inputs which activates different neurons so that the CNN classifies them to each category. We notice that each filter has learned differently to optimally activate the dense layer unit.
 
 
 First Layer |

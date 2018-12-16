@@ -15,11 +15,9 @@ Term: Fall 2018
 	
 ## Project summary:
 
-We choose this project because neural networks as black box function approximators, most people are not sure how each layers are doing their jobs. 
+We choose this project because neural networks as black box function approximators, most people are not sure how each layers are doing their jobs. Therefore, We want to explore what and how exactly different layers are extracting features. In this way, we will have a better understanding of different layers in CNN.
 
-Therefore, We want to explore what and how exactly different layers are extracting features. In this way, we will have a better understanding of different layers in CNN. 
-
-The project has 3 parts. The 1st part we are using mnist dataset and build a straightforward 3-layer CNN. We then visualize the filtered channel from each layer. The 2nd part we are looking at practical images. The process is trained a CNN model with respected to dogs and cats classification. The goal of the visualization is exploring how the CNN is learning a cat. The 3rd part is using the popular VGG16 model and visualizing the filter in each layer. Therefore, we not only could explore the output from the CNN convolutional layer, but also get some knowlege of the CNN filters.
+The project has 3 parts. The 1st part we build a straightforward 3-layer CNN and train the model by using mnist dataset. We then visualize the input image which could activate a particular unit from the final dense layer. Then we build a more complicated CNN for training cats_dogs dataset. By controling parameters, we visualize the optimized input image that activate filters for each layer, and compare the result. Also, we used the well-known VGG16 model to visualize the optimized input image and compare each layers learning characterisitcs. The 2nd part we are focusing on how a CNN learns a cat. Using the same model we have for cats_dogs dataset, we feed the network a cat picture and visualize what features the filter receives in each layer. This is another way we understand how CNN is doing classifications. The third part is an additional CNN extension of saliency maps, which are used to observe the important part of an imput picture that the CNN makes classification decision on. The model we use is ResNet50 with Grad-CAM method.
 
 **MNIST Feature**
 

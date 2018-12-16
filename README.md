@@ -26,9 +26,9 @@ We created a basic 2-layers CNN for MNIST dataset, and visualized the output bef
 
 
 
- network perception 0 | network perception 1 | network perception 2 | network perception 3 | network perception 4                               
-:-----------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
-![](figs/mnist_activate_0.png)|![](figs/mnist_activate_1.png)|![](figs/mnist_activate_2.png)|![](figs/mnist_activate_3.png)  |![](figs/mnist_activate_4.png)|
+network perception 1 | network perception 2 | network perception 3 | network perception 4                               
+:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+![](figs/mnist_activate_1.png)|![](figs/mnist_activate_2.png)|![](figs/mnist_activate_3.png)|![](figs/mnist_activate_4.png)|
 network perception 5 | network perception 6 | network perception 7 | network perception 8 | network perception 9                               
 :-------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 ![](figs/mnist_activate_5.png)|![](figs/mnist_activate_6.png)|![](figs/mnist_activate_7.png)|![](figs/mnist_activate_8.png)  |![](figs/mnist_activate_9.png)|

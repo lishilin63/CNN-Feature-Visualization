@@ -26,8 +26,10 @@ We created a basic 2-layers CNN for MNIST dataset, and visualized the output bef
 
 Input image to activate index 0 |
 :-------------------------:|
-![mnist_2](figs/mnist_activate_0.png | width = 100)| 
+![mnist_2](figs/mnist_activate_0.png)| 
 
+
+![](figs/mnist_activate_0.png)| 
 
 **Learning a Cat**
 

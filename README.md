@@ -29,12 +29,12 @@ Input image to activate index 0 |
 ![mnist_2](figs/mnist_activate_0.png)| 
 
 
-Input which activates index 0 | Input which activates index 1 | Input which activates index 2 | Input which activates index 3 | Input which activates index 4                               
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](figs/mnist_activate_0.png)  |  ![](figs/mnist_activate_1.png)  |![](figs/mnist_activate_2.png)  |![](figs/mnist_activate_3.png)  |![](figs/mnist_activate_4.png)
-Input which activates index 5 | Input which activates index 6 | Input which activates index 7 | Input which activates index 8 | Input which activates index 9                               
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](figs/mnist_activate_5.png)  |  ![](figs/mnist_activate_6.png)  |![](figs/mnist_activate_7.png)  |![](figs/mnist_activate_8.png)  |![](figs/mnist_activate_9.png)
+network perception 0 | network perception 1 | network perception 2 | network perception 3 | network perception 4                               
+:-------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+![](figs/mnist_activate_0.png)  |  ![](figs/mnist_activate_1.png)  |![](figs/mnist_activate_2.png)  |![](figs/mnist_activate_3.png)  |![](figs/mnist_activate_4.png)|
+network perception 5 | network perception 6 | network perception 7 | network perception 8 | network perception 9                               
+:-------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+![](figs/mnist_activate_5.png)  |  ![](figs/mnist_activate_6.png)  |![](figs/mnist_activate_7.png)  |![](figs/mnist_activate_8.png)  |![](figs/mnist_activate_9.png)|
 
 **Learning a Cat**
 

@@ -10,7 +10,7 @@ Term: Fall 2018
 + Team members
 	+ Dong, Jiayi jd3416@columbia.edu
 	+ Li, Shilin sl4261@columbia.edu
-	+ Lin, 
+	+ Lin, Hengyang hl3116@columbia.edu
 	+ Zhu, Wenting wz2401@columbia.edu
 	
 ## Project summary:
@@ -21,20 +21,13 @@ The project has 3 parts. The 1st part we build a straightforward 3-layer CNN and
 
 **MNIST Feature**
 
-We created a basic 3-layers CNN for MNIST dataset, and visualized the output before the last dense layer which activate the unit in the dense layer. We can observe different inputs which activates different neurons so that the CNN classifies them to each category. We notice that each filter has learned differently to optimally activate the dense layer unit.
+We created a basic 2-layers CNN for MNIST dataset, and visualized the output before the last dense layer which activate the unit in the dense layer. We can observe different inputs which activates different neurons so that the CNN classifies them to each category. We notice that each filter has learned differently to optimally activate the dense layer unit. All the optimized input images does not come from the training set, but a synthesized optical result which fully activate the dense unit.
 
 
-First Layer |
+Input image to activate index 0 |
 :-------------------------:|
-![mnist_2](figs/layer1.png)|
+![mnist_2](figs/mnist_activate_0.png)|
 
-Second Layer|
-:-------------------------:|
-![mnist_3](figs/layer2.png)|
-
-Third Layer|
-:-------------------------:|
-![mnist_4](figs/layer3.png)|
 
 **Learning a Cat**
 

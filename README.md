@@ -80,7 +80,12 @@ conv2d_8|
 
 
 **Saliency Maps**
+
 In this section, we are reviewing the saliency map for CNN model which is used to make classification decision, referenced in (https://github.com/raghakot/keras-vis/blob/master/examples/resnet/attention.ipynb). To visualize activation over the final dense layer outputs, we need to switch the softmax activation out for linear since gradient of output node will depend on all the other node activations. We want to make the CNN model more transparent by visualizing the regions of input (two ouzels) that are ‘important’ for predictions from these models or visual explanations. The method Grad-CAM is refereced in this paper (https://arxiv.org/pdf/1610.02391v1.pdf).
+
+Ouzel 1             |  Ouzel 2
+:-------------------------:|:-------------------------:
+![](figs/ouzel1_saliency.png)  |  ![](figs/ouzel2_saliency.png)
 
 
 ## Contribution statement:  

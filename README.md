@@ -1,4 +1,4 @@
-# Advanced Machine Learning: Visualizing the Black Box (CNN)
+# Visualizing the Black Box (CNN)
 
 ![img](figs/cnn_filters.png)
 

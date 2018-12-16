@@ -23,15 +23,36 @@ The project has 3 parts. The 1st part we build a straightforward 3-layer CNN and
 
 We created a basic 2-layers CNN for MNIST dataset, and visualized the output before the last dense layer which activate the unit in the dense layer. We can observe different inputs which activates different neurons so that the CNN classifies them to each category. We notice that each filter has learned differently to optimally activate the dense layer unit. All the optimized input images does not come from the training set, but a synthesized optical result which fully activate the dense unit.
 
-
-
-
 network perception 1 | network perception 2 | network perception 3 | network perception 4                               
 :-------------------:|:--------------------:|:--------------------:|:--------------------:|
 ![](figs/mnist_activate_1.png)|![](figs/mnist_activate_2.png)|![](figs/mnist_activate_3.png)|![](figs/mnist_activate_4.png)|
 network perception 5 | network perception 6 | network perception 7 | network perception 8                               
 :-------------------:|:--------------------:|:--------------------:|:--------------------:
 ![](figs/mnist_activate_5.png)|![](figs/mnist_activate_6.png)|![](figs/mnist_activate_7.png)|![](figs/mnist_activate_8.png)|
+
+
+**Filters Visualization from VGG16**
+
+These filter visualizations tell us a lot about how convnet layers see the world: each layer in a convnet simply learns a collection of filters such that their inputs can be expressed as a combination of the filters. This is similar to how the Fourier transform decomposes signals onto a bank of cosine functions. The filters in these convnet filter banks get increasingly complex and refined as we go higher-up in the model:
+
+* The filters from the first layer in the model (block1_conv1) encode simple directional edges and colors (or colored edges in some cases).
+* The filters from block2_conv1 encode simple textures made from combinations of edges and colors.
+* The filters in higher-up layers start resembling textures found in natural images: feathers, eyes, leaves, etc.
+
+First Layer             |  Second Layer
+:-------------------------:|:-------------------------:
+![mnist_1](figs/cat_layer1.png)  |  ![mnist_1](figs/cat_layer2.png)
+Third Layer             |  Forth Layer
+![mnist_1](figs/cat_layer3.png)  | ![mnist_1](figs/cat_layer4.png)
+
+
+Our findings:
++ Shadow layers extract the texture and details characteristics.
++ Deeper layers extract the outline, shape and strongest features.
++ Shadow layers includes more features and also has the ability to extract the key features.
++ Comparably, the deeper the layer, the more representative of the features extracted.
++ Resolution of images decrease as the layers go deeper.
+
 
 **Learning a Cat**
 
@@ -58,29 +79,8 @@ conv2d_8|
 ![conv2d_8](figs/conv2d_8.png)|
 
 
+**Saliency Maps**
 
-**Explore Filters from VGG16**
-
-These filter visualizations tell us a lot about how convnet layers see the world: each layer in a convnet simply learns a collection of filters such that their inputs can be expressed as a combination of the filters. This is similar to how the Fourier transform decomposes signals onto a bank of cosine functions. The filters in these convnet filter banks get increasingly complex and refined as we go higher-up in the model:
-
-* The filters from the first layer in the model (block1_conv1) encode simple directional edges and colors (or colored edges in some cases).
-* The filters from block2_conv1 encode simple textures made from combinations of edges and colors.
-* The filters in higher-up layers start resembling textures found in natural images: feathers, eyes, leaves, etc.
-
-First Layer             |  Second Layer
-:-------------------------:|:-------------------------:
-![mnist_1](figs/cat_layer1.png)  |  ![mnist_1](figs/cat_layer2.png)
-Third Layer             |  Forth Layer
-![mnist_1](figs/cat_layer3.png)  | ![mnist_1](figs/cat_layer4.png)
-
-
-
-**Conclusion**:
-+ Shadow layers extract the texture and details characteristics.
-+ Deeper layers extract the outline, shape and strongest features.
-+ Shadow layers includes more features and also has the ability to extract the key features.
-+ Comparably, the deeper the layer, the more representative of the features extracted.
-+ Resolution of images decrease as the layers go deeper.
 
 
 ## Contribution statement:  
